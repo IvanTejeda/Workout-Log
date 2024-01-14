@@ -143,7 +143,8 @@ When the delete button is pressed the user is directed to this page
 
 Same process as creating and updating, send POST request and the views.py handles it on the correct data object. 
 
-
+FUTURE:
+I want to increase my front end development skills by making the page look nicer and more user friendly. I also want to eventually take the data from the graph and have the application recommend me what weight and reps I should do in my future workouts. I also want it to tell me when it thinks I should one rep max again. 
 
 
 
