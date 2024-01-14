@@ -97,7 +97,7 @@ Since this is a derived attribute, it was a function inside the model. Technical
 
 
 
-The tough part about this feature was that a user would have several estimates of a one rep max in the same day. For example, if a user inputted that they lifted 225 for 1 rep on jan 1st, and then they also lifted 235 for 1 rep on jan 1st, then for jan 1st the user has 2 estimates of 225 and 235. I had to write an algorithm that would only take the HIGHEST estimate for each date. In our example, it would only read 235 for jan 1st, not 225. 
+The tough part about this feature was that a user would have several estimates of a one rep max in the same day. For example, if a user inputted that they lifted 225 for 1 rep on jan 1st, and then they also lifted 235 for 1 rep on jan 1st, then for jan 1st the user has 2 estimates of 225 and 235. I had to write an algorithm that would only take the HIGHEST estimate for each date. In our example, it should only read 235 for jan 1st, not 225. 
 This algorithm stores all bench objects in the variable "entry". It also creates two lists one for the x variable (dates) named "h" and one for the y variable (estimates) named "v". Then it iterates through each entry object. If the certain date was already in the date list, then it would compare estimates, and keep the highest one. 
 
 
