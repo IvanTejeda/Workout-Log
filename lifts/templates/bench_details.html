@@ -1,0 +1,72 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href = "{% static 'basic.css' %}">
+    <body>
+       <h1>Bench</h1>
+       <h3><a href ="{% url 'log'%}">back to exercises</a></h3>
+       
+       
+        <h1>Bench Logs:</h1>
+        
+        
+      
+      {% for date, weight in data_by_date.items %}
+        <h2>{{date}}</h2>
+
+      <table border="1">
+        <thead>
+            <tr>
+                <th>Weight</th>
+                <th>Sets</th>
+                <th>Reps</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for w in weight %}
+            <tr>
+                
+                <td>{{w.weight}} lbs</td>
+                <td>{{w.sets}}</td>
+                <td>{{w.reps}}</td>
+                <td><a href = "{% url 'bench-update' w.id %}">edit</a></td> 
+                <td><a href = "{% url 'bench-delete' w.id %}">delete</a></td> 
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+      {% endfor %}
+
+    <h1> Rep Maxes: </h1>
+    
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Reps</th>
+                <th>Weight</th>
+                <th>Date</th>
+                
+            </tr>
+        </thead>
+        
+        <tbody>
+            {% for r, weights in max_entries.items %} 
+            <tr>
+                
+                <td>{{r}} </td>
+                
+                <td>{{weights.weight}}</td> 
+
+                <td>{{weights.date}}</td>
+                
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    
+    <h1> <a href = "{% url 'bench-graph' %}"> One rep max Graph </a> </h1>
+    
+
+
+    </body>
+</html>

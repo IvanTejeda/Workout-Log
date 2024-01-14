@@ -1,0 +1,12 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href = "{% static 'basic.css' %}">
+    <body>
+        <center>
+            <h1> Weight Tracker </h1>
+            <h3>
+             <a href = "{% url 'log' %}">Your Exercises</a> </h3> 
+        </center>
+    </body>
+</html>

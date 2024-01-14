@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href = "{% static 'basic.css' %}">
+    <body>
+        <h1> Add Deadlift! </h1>
+
+        <form action="" method="post" novalidate>
+            {% csrf_token %}
+            {{ form.as_p}}
+            <input type='submit' value="Submit">
+
+        <p><a href = "{% url 'log'%}">Back to exercises</a></p>
+        <p><a href = "{% url 'dead-details'%}">Back to deadllift log</a></p>
+    </body>
+</html>

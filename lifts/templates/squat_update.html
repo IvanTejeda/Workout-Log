@@ -1,0 +1,14 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href = "{% static 'basic.css' %}">
+    <body>
+        <h1> update squat! </h1>
+
+        <form action="" method="post" novalidate>
+            {% csrf_token %}
+            {{ form.as_p}}
+            <input type='submit' value="Submit">
+            <p><a href = "{% url 'squat-details'%}">Back to squat log</a></p>
+    </body>
+</html>

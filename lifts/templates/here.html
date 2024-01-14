@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <body>
+       <h1>bench</h1>
+
+      <ul>
+        {% for w in total %}
+          <li>
+            {{w.weight}} and {{w.volume}}- <a href="{% url 'bench-update' w.id %}">[edit]</a></li>
+        {% endfor %}
+      </ul> 
+    </body>
+</html>

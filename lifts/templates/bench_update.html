@@ -1,0 +1,14 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <body>
+        <link rel="stylesheet" href = "{% static 'basic.css' %}">
+        <h1> update bench! </h1>
+
+        <form action="" method="post" novalidate>
+            {% csrf_token %}
+            {{ form.as_p}}
+            <input type='submit' value="Submit">
+            <p><a href = "{% url 'bench-details'%}">Back to bench log</a></p>
+    </body>
+</html>

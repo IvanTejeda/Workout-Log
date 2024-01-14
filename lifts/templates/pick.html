@@ -1,0 +1,14 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href = "{% static 'basic.css' %}">
+    <body>
+       <h1>Pick an Exercise</h1>
+
+      <ul>
+        <li><a href = "{% url 'bench-create' %}">Bench</a> - <a href = "{% url 'bench-details' %}">[details]</a></li>
+        <li><a href = "{% url 'squat-create' %}">Squat - <a href = "{% url 'squat-details' %}">[details]</a></li>
+        <li><a href = "{% url 'dead-create' %}">Deadlift - <a href = "{% url 'dead-details' %}">[details]</a></li>
+      </ul> 
+    </body>
+</html>
