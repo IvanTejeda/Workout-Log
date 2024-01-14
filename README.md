@@ -19,10 +19,20 @@ I personally inputed all of my workouts since August 2023. I will show all the f
 
 
 CREATE:
+
+
+
+
+
 ![image](https://github.com/IvanTejeda/Workout-Log/assets/29577371/84e93096-fe8a-46c2-81ed-10f84cf76da3)
 
 Allows users to add workout weight, sets, and reps per date. Takes data in as a form and sends POST request to to the correct class in views.py which saves the data into the appropriate database.  
 from views.py:
+
+
+
+
+
 ![image](https://github.com/IvanTejeda/Workout-Log/assets/29577371/b3da713d-620a-48e9-8515-fea7381354a5)
 
 READ:
