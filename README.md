@@ -82,7 +82,8 @@ plotly library was used to create the graph
 
 
 
-![image](https://github.com/IvanTejeda/Workout-Log/assets/29577371/92d38722-532a-44d7-89ce-3fe2284471d7)
+![image](https://github.com/IvanTejeda/Workout-Log/assets/29577371/f8301686-8565-48b5-8c77-51d825c41807)
+
 
 
 
