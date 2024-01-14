@@ -11,7 +11,9 @@ Features include:
   - Shows users maximum weight lifted per rep (1-10) in neatly organized and dynamically updating table
   - Shows users graph of Estimated One rep max vs Date to show progress of the user
 
-I personally inputed all of my workouts since August 2023. I will show all the functionalities of the web application using my Bench Press workouts 
+I personally inputed all of my workouts since August 2023. I will show all the functionalities of the web application using my Bench Press workouts
+
+
 ![image](https://github.com/IvanTejeda/Workout-Log/assets/29577371/33c408c0-5db8-4b0b-930a-e436bc385ee3)
 
 
