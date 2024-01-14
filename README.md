@@ -86,7 +86,7 @@ plotly library was used to create the graph
 
 
 
-
+(as you can see, I stopped lifting intensly during November as a decline is shown. I blame finals, being sick, and SHPE convention).
 
 Since this is a derived attribute, it was a function inside the model. Technically a property. 
 
