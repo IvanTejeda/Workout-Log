@@ -1,6 +1,6 @@
 # Workout-Log
 Workout Log Django Application (Python, HTML, CSS, PostgreSQL, Plotly)
-Django application that allows users to perfrom CRUD operations to input, view, update, and delete their workouts. 
+Django application that allows users to perform CRUD operations to input, view, update, and delete their workouts. 
   - Used HTML and CSS for structuring and style of the web page.
   - Used Python for backend logic and functionality making use of the Django Framework.
   - Used PostgreSQL hosted by AWS as the database management system.
