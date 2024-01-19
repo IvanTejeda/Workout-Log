@@ -62,7 +62,8 @@ Algorithm to sort bench data by date which allows HTML file to create a table fo
 
 
 
-![image](https://github.com/IvanTejeda/Workout-Log/assets/29577371/7a70df4d-fd29-4fd2-9482-06c00de4b1c6)
+![image](https://github.com/IvanTejeda/Workout-Log/assets/29577371/b5d28b24-706d-4967-bcb7-b60dbe923317)
+
 
 Also shows user their max weight per rep. Similar algorithm to query database grouping by reps, then picking the max weight and corresponding date. 
 
