@@ -17,6 +17,10 @@ I personally inputed all of my workouts since August 2023. I will show all the f
 ![image](https://github.com/IvanTejeda/Workout-Log/assets/29577371/33c408c0-5db8-4b0b-930a-e436bc385ee3)
 
 
+![image](https://github.com/IvanTejeda/Workout-Log/assets/29577371/a0978be0-c39b-4429-b7b0-b11edd16c0b2)
+
+
+
 
 CREATE:
 
